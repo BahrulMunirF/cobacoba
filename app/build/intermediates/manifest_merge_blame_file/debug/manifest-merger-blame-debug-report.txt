@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ahmdrheza.uas"
+4    android:versionCode="1"
+5    android:versionName="0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+10
+11    <!-- Internet required for mDNS and transfer -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:6:5-66
+12-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <!-- Storage access required for transferring files -->
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:9:22-78
+16
+17    <!-- Enables the broadcast and transfer services to run at boot -->
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:12:5-80
+18-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:12:22-78
+19
+20    <application
+20-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:14:5-74:19
+21        android:allowBackup="true"
+21-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:15:9-35
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:16:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:17:9-41
+25        android:supportsRtl="true"
+25-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:18:9-35
+26        android:theme="@style/LightTheme" >
+26-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:19:9-42
+27
+28        <!-- Transfer activity -->
+29        <activity
+29-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:22:9-32:20
+30            android:name="com.ahmdrheza.uas.ui.transfer.TransferActivity"
+30-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:23:13-74
+31            android:launchMode="singleTop" >
+31-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:24:13-43
+32            <intent-filter>
+32-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:25:13-29:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:26:17-68
+33-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:26:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:28:17-76
+35-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:28:27-74
+36            </intent-filter>
+37
+38            <meta-data
+38-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:30:13-31:53
+39                android:name="android.app.shortcuts"
+39-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:30:24-60
+40                android:resource="@xml/shortcuts" />
+40-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:31:17-50
+41        </activity>
+42
+43        <!-- Explorer activity -->
+44        <activity
+44-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:35:9-38:90
+45            android:name="com.ahmdrheza.uas.ui.explorer.ExplorerActivity"
+45-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:36:13-74
+46            android:label="@string/activity_explorer"
+46-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:37:13-54
+47            android:parentActivityName="com.ahmdrheza.uas.ui.transfer.TransferActivity" />
+47-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:38:13-88
+48
+49        <!-- Share activity -->
+50        <activity
+50-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:41:9-52:20
+51            android:name="com.ahmdrheza.uas.ui.ShareActivity"
+51-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:42:13-62
+52            android:label="@string/activity_share" >
+52-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:43:13-51
+53            <intent-filter>
+53-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:44:13-51:29
+54                <action android:name="android.intent.action.SEND" />
+54-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:45:17-68
+54-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:45:25-66
+55                <action android:name="android.intent.action.SEND_MULTIPLE" />
+55-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:46:17-77
+55-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:46:25-75
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:48:17-75
+57-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:48:27-73
+58
+59                <data android:mimeType="*/*" />
+59-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:50:17-47
+59-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:50:23-45
+60            </intent-filter>
+61        </activity>
+62
+63        <!-- Settings activity -->
+64        <activity
+64-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:55:9-58:90
+65            android:name="com.ahmdrheza.uas.ui.settings.SettingsActivity"
+65-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:56:13-74
+66            android:label="@string/activity_settings"
+66-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:57:13-54
+67            android:parentActivityName="com.ahmdrheza.uas.ui.transfer.TransferActivity" />
+67-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:58:13-88
+68
+69        <!-- Service for transfers -->
+70        <service
+70-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:61:9-64:39
+71            android:name="com.ahmdrheza.uas.transfer.TransferService"
+71-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:62:13-70
+72            android:enabled="true"
+72-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:63:13-35
+73            android:exported="false" />
+73-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:64:13-37
+74
+75        <!-- Receiver for actions that might require the service to start -->
+76        <receiver android:name="com.ahmdrheza.uas.util.StartReceiver" >
+76-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:67:9-72:20
+76-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:67:19-70
+77            <intent-filter>
+77-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:68:13-71:29
+78                <action android:name="android.intent.action.BOOT_COMPLETED" />
+78-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:69:17-78
+78-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:69:25-76
+79                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+79-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:70:17-83
+79-->C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:70:25-81
+80            </intent-filter>
+81        </receiver>
+82    </application>
+83
+84</manifest>

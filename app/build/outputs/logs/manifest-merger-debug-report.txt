@@ -1,0 +1,189 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:2:1-76:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40342115436ca400c9d8f72791127d1\design-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.apl-devs:appintro:v4.2.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88f7f13c196f682d195d8ea4fb385bab\appintro-v4.2.2\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\625220ab112d76261e81645b59183c41\appcompat-v7-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c2d7e4f44eaee1223dd52b8099441c5\recyclerview-v7-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4ea12a3e5aa7af0852de9bcf28006f88\support-v4-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03415b8e2b0b6f5357d5445eb96efb0f\support-fragment-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e7874930e19c6aa90870c88b6ec6a4a5\support-core-utils-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2e4e6154c9d10dcda70bf1d5ca9c1270\animated-vector-drawable-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9bb4d71ac15a1f6d35325fba1cd71de3\support-vector-drawable-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8d6bae5f6271425eecf589b276d0d797\transition-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e14b721abdbb0f0759f4a63d71cbc627\support-core-ui-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a251f2138274cda041f93d9d9cd3c5ec\support-media-compat-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4a5bc21222a83d8a2bbfd50b1f654c2a\support-compat-27.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\780ec70f57ed4d3d2f19f249307f03d1\runtime-1.0.3\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:2:1-76:12
+	package
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:3:11-38
+		INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:2:1-76:12
+		INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:2:1-76:12
+		INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:12:22-78
+application
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:14:5-74:19
+MERGED from [com.github.apl-devs:appintro:v4.2.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88f7f13c196f682d195d8ea4fb385bab\appintro-v4.2.2\AndroidManifest.xml:11:5-47
+MERGED from [com.github.apl-devs:appintro:v4.2.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88f7f13c196f682d195d8ea4fb385bab\appintro-v4.2.2\AndroidManifest.xml:11:5-47
+	android:supportsRtl
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:19:9-42
+activity#com.ahmdrheza.uas.ui.transfer.TransferActivity
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:22:9-32:20
+	android:launchMode
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:24:13-43
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:23:13-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:26:17-68
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:28:27-74
+meta-data#android.app.shortcuts
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:30:13-31:53
+	android:resource
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:31:17-50
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:30:24-60
+activity#com.ahmdrheza.uas.ui.explorer.ExplorerActivity
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:35:9-38:90
+	android:parentActivityName
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:38:13-88
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:37:13-54
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:36:13-74
+activity#com.ahmdrheza.uas.ui.ShareActivity
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:41:9-52:20
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:43:13-51
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:42:13-62
+intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.SEND_MULTIPLE+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:44:13-51:29
+action#android.intent.action.SEND
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:45:17-68
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:45:25-66
+action#android.intent.action.SEND_MULTIPLE
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:46:25-75
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:48:17-75
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:48:27-73
+data
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:50:17-47
+	android:mimeType
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:50:23-45
+activity#com.ahmdrheza.uas.ui.settings.SettingsActivity
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:55:9-58:90
+	android:parentActivityName
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:58:13-88
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:57:13-54
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:56:13-74
+service#com.ahmdrheza.uas.transfer.TransferService
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:61:9-64:39
+	android:enabled
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:63:13-35
+	android:exported
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:62:13-70
+receiver#com.ahmdrheza.uas.util.StartReceiver
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:67:9-72:20
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:67:19-70
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:68:13-71:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:69:17-78
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:69:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:70:17-83
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml:70:25-81
+uses-sdk
+INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40342115436ca400c9d8f72791127d1\design-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a40342115436ca400c9d8f72791127d1\design-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.github.apl-devs:appintro:v4.2.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88f7f13c196f682d195d8ea4fb385bab\appintro-v4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.apl-devs:appintro:v4.2.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88f7f13c196f682d195d8ea4fb385bab\appintro-v4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\625220ab112d76261e81645b59183c41\appcompat-v7-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\625220ab112d76261e81645b59183c41\appcompat-v7-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c2d7e4f44eaee1223dd52b8099441c5\recyclerview-v7-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c2d7e4f44eaee1223dd52b8099441c5\recyclerview-v7-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4ea12a3e5aa7af0852de9bcf28006f88\support-v4-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4ea12a3e5aa7af0852de9bcf28006f88\support-v4-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03415b8e2b0b6f5357d5445eb96efb0f\support-fragment-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03415b8e2b0b6f5357d5445eb96efb0f\support-fragment-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e7874930e19c6aa90870c88b6ec6a4a5\support-core-utils-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e7874930e19c6aa90870c88b6ec6a4a5\support-core-utils-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2e4e6154c9d10dcda70bf1d5ca9c1270\animated-vector-drawable-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2e4e6154c9d10dcda70bf1d5ca9c1270\animated-vector-drawable-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9bb4d71ac15a1f6d35325fba1cd71de3\support-vector-drawable-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9bb4d71ac15a1f6d35325fba1cd71de3\support-vector-drawable-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8d6bae5f6271425eecf589b276d0d797\transition-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8d6bae5f6271425eecf589b276d0d797\transition-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e14b721abdbb0f0759f4a63d71cbc627\support-core-ui-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e14b721abdbb0f0759f4a63d71cbc627\support-core-ui-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a251f2138274cda041f93d9d9cd3c5ec\support-media-compat-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a251f2138274cda041f93d9d9cd3c5ec\support-media-compat-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4a5bc21222a83d8a2bbfd50b1f654c2a\support-compat-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4a5bc21222a83d8a2bbfd50b1f654c2a\support-compat-27.0.2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\780ec70f57ed4d3d2f19f249307f03d1\runtime-1.0.3\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\780ec70f57ed4d3d2f19f249307f03d1\runtime-1.0.3\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Downloads\Compressed\UAS Socket\app\src\main\AndroidManifest.xml
